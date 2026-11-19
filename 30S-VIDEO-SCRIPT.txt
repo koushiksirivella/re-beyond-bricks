@@ -1,5 +1,5 @@
 30-SECOND SCREEN RECORDING SCRIPT — BEYOND BRICKS · RG CONSTRUCTIONS
-1. [0-5s] Open beyondbricks.in vs new preview ([DEPLOYED_VERCEL_URL]) — hero split-title reveal for Beyond Bricks.
+1. [0-5s] Open beyondbricks.in vs new preview (https://re-beyond-bricks-381q1l024-koushiksirivella-4781s-projects.vercel.app) — hero split-title reveal for Beyond Bricks.
 2. [5-13s] Scroll smoothly down parallax showcases, animated counts, and direct advisory desk sections.
 3. [13-22s] Click 3D Area Map (/map) — rotate 3D city model, click location pin modal, jump to filtered portfolio.
 4. [22-30s] Open /flats filter & shortlist drawer -> show instant enquiry flow -> close: "Already built with your real details. Reply if you'd like this live on beyondbricks.in."
