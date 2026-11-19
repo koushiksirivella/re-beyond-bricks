@@ -12,7 +12,7 @@
     "rera_id": "",
     "owner": "RG Constructions",
     "mobiles": [
-      "+91 99634 66111",
+      "+919963466111",
       "+91 96988 78878"
     ],
     "landlines": [],
@@ -550,34 +550,34 @@
   ],
   "corridors": [
     {
-      "name": "Banjara Hills",
-      "count": 2,
-      "timeLabel": "6 min"
+      "name": "BN Reddy Nagar, LB Nagar, Hyderabad",
+      "count": 10,
+      "timeLabel": "4 min"
     },
     {
-      "name": "Bachupally · Sai Anurag Colony",
-      "count": 5,
-      "timeLabel": "12 min"
-    },
-    {
-      "name": "LB Nagar · BN Reddy Nagar",
-      "count": 1,
-      "timeLabel": "14 min"
-    },
-    {
-      "name": "Gachibowli · Narsingi Belt",
-      "count": 1,
-      "timeLabel": "10 min"
-    },
-    {
-      "name": "Manikonda",
-      "count": 1,
+      "name": "ORR & Growth Corridor",
+      "count": 0,
       "timeLabel": "8 min"
     },
     {
-      "name": "Khammam · Telangana",
-      "count": 1,
-      "timeLabel": "18 min"
+      "name": "HITEC City & Financial District",
+      "count": 0,
+      "timeLabel": "12 min"
+    },
+    {
+      "name": "RGIA & South Belt",
+      "count": 0,
+      "timeLabel": "16 min"
+    },
+    {
+      "name": "Residential Clusters",
+      "count": 0,
+      "timeLabel": "20 min"
+    },
+    {
+      "name": "Primary Transit Axis",
+      "count": 0,
+      "timeLabel": "24 min"
     }
   ],
   "testimonials": {

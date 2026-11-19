@@ -1,18 +1,8 @@
-Subject: Rebuilt Beyond Bricks · RG Constructions in 3D + interactive web experience
+Subject: Beyond Bricks (Ekam Standalone Apartment (G+5)) — 3D preview
 
 Hi RG,
 
-I was looking at beyondbricks.in and took your 10 listings, services, and local market focus and built a private working redesign preview so you can click through it directly:
+Mapped beyondbricks.in's 10 listings & Ekam Standalone Apartment (G+5) details into a private 3D walkthrough + live filter:
+[DEPLOYED_VERCEL_URL]
 
-https://beyondbricks-hyderabad.vercel.app
-
-What changed:
-- Interactive 3D area map explorer (/map) pinned to Beyond Bricks's key locations
-- Filterable portfolio explorer (/flats) with side-drawer shortlist
-- Dedicated mortgage EMI & land unit calculators (/services)
-
-Published live so you can click through every route and interactive feature.
-
-If you want me to wire this to your domain and live inventory feed, reply here and I'll send the breakdown.
-
-— Koushik
+Worth a quick 20-second look?

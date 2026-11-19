@@ -9,7 +9,7 @@ window.RE_DATA = {
     "founded": "2014",
     "address": "Hyderabad, Telangana",
     "mobiles": [
-      "+91 99634 66111",
+      "+919963466111",
       "+91 96988 78878"
     ],
     "landlines": [],
@@ -21,12 +21,12 @@ window.RE_DATA = {
       "Beyond Bricks · RG Constructions"
     ],
     "cities_covered": [
-      "Banjara Hills",
-      "Bachupally · Sai Anurag Colony",
-      "LB Nagar · BN Reddy Nagar",
-      "Gachibowli · Narsingi Belt",
-      "Manikonda",
-      "Khammam · Telangana"
+      "BN Reddy Nagar, LB Nagar, Hyderabad",
+      "ORR & Growth Corridor",
+      "HITEC City & Financial District",
+      "RGIA & South Belt",
+      "Residential Clusters",
+      "Primary Transit Axis"
     ],
     "office_photo": "https://beyondbricks.in/assets/images/projects/Standalone%20Apartment%20Construction%20-G+5.png",
     "currency_symbol": "₹",
@@ -91,7 +91,7 @@ window.RE_DATA = {
       ],
       "amenities": [],
       "contact_person": "RG Constructions",
-      "contact_phone": "+91 99634 66111"
+      "contact_phone": "+919963466111"
     },
     {
       "id": "RE-002",
@@ -128,7 +128,7 @@ window.RE_DATA = {
       ],
       "amenities": [],
       "contact_person": "RG Constructions",
-      "contact_phone": "+91 99634 66111"
+      "contact_phone": "+919963466111"
     },
     {
       "id": "RE-003",
@@ -165,7 +165,7 @@ window.RE_DATA = {
       ],
       "amenities": [],
       "contact_person": "RG Constructions",
-      "contact_phone": "+91 99634 66111"
+      "contact_phone": "+919963466111"
     },
     {
       "id": "RE-004",
@@ -203,7 +203,7 @@ window.RE_DATA = {
       ],
       "amenities": [],
       "contact_person": "RG Constructions",
-      "contact_phone": "+91 99634 66111"
+      "contact_phone": "+919963466111"
     },
     {
       "id": "RE-005",
@@ -241,7 +241,7 @@ window.RE_DATA = {
       ],
       "amenities": [],
       "contact_person": "RG Constructions",
-      "contact_phone": "+91 99634 66111"
+      "contact_phone": "+919963466111"
     },
     {
       "id": "RE-006",
@@ -281,7 +281,7 @@ window.RE_DATA = {
       ],
       "amenities": [],
       "contact_person": "RG Constructions",
-      "contact_phone": "+91 99634 66111"
+      "contact_phone": "+919963466111"
     },
     {
       "id": "RE-007",
@@ -318,7 +318,7 @@ window.RE_DATA = {
       ],
       "amenities": [],
       "contact_person": "RG Constructions",
-      "contact_phone": "+91 99634 66111"
+      "contact_phone": "+919963466111"
     },
     {
       "id": "RE-008",
@@ -356,7 +356,7 @@ window.RE_DATA = {
       ],
       "amenities": [],
       "contact_person": "RG Constructions",
-      "contact_phone": "+91 99634 66111"
+      "contact_phone": "+919963466111"
     },
     {
       "id": "RE-009",
@@ -393,7 +393,7 @@ window.RE_DATA = {
       ],
       "amenities": [],
       "contact_person": "RG Constructions",
-      "contact_phone": "+91 99634 66111"
+      "contact_phone": "+919963466111"
     },
     {
       "id": "RE-010",
@@ -429,7 +429,7 @@ window.RE_DATA = {
       ],
       "amenities": [],
       "contact_person": "RG Constructions",
-      "contact_phone": "+91 99634 66111"
+      "contact_phone": "+919963466111"
     }
   ],
   "cp_projects": [

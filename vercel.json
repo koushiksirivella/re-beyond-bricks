@@ -34,7 +34,7 @@
       "headers": [
         {
           "key": "X-Robots-Tag",
-          "value": "index, follow, max-image-preview:large"
+          "value": "noindex, nofollow"
         },
         {
           "key": "Access-Control-Allow-Origin",
