@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#F7F2E8">
+  <meta name="format-detection" content="telephone=no">
+  <title>About & Reviews — Beyond Bricks · RG Constructions</title>
+  <meta name="description" content="About Beyond Bricks · RG Constructions, direct contact details, reviews &amp; market guides.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About & Reviews — Beyond Bricks · RG Constructions">
+  <meta property="og:description" content="About Beyond Bricks · RG Constructions, direct contact details, reviews &amp; market guides.">
+  <meta property="og:image" content="./assets/manifest/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About & Reviews — Beyond Bricks · RG Constructions">
+  <meta name="twitter:description" content="About Beyond Bricks · RG Constructions, direct contact details, reviews &amp; market guides.">
+  <meta name="twitter:image" content="./assets/manifest/og-twitter.png">
+  <link rel="manifest" href="./assets/manifest/manifest.webmanifest">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/manifest/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/manifest/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="./assets/manifest/apple-touch-icon.png">
+  
+<link rel="preload" href="./assets/fonts/garamond-light/itc-garamond_light.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/halvar-breitschrift/Halvar-Breitschrift-Regular-Web.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/halvar-breitschrift/Halvar-Breitschrift-Medium-Web.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+  @font-face { font-family: "Garamond Light"; src: url("./assets/fonts/garamond-light/itc-garamond_light.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+  @font-face { font-family: "Halvar Breitschrift"; src: url("./assets/fonts/halvar-breitschrift/Halvar-Breitschrift-Regular-Web.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+  @font-face { font-family: "Halvar Breitschrift"; src: url("./assets/fonts/halvar-breitschrift/Halvar-Breitschrift-Medium-Web.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+  :root {
+    --c-light: #f7f2e8;
+    --c-black: #12100e;
+    --c-surface: #181512;
+    --c-beige: #bdb6a9;
+    --c-dark-beige: #75736d;
+    --c-error: #a40000;
+    --line-dark: rgba(247, 242, 232, 0.14);
+    --line-light: rgba(18, 16, 14, 0.14);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--c-black); color: var(--c-light); font-family: "Halvar Breitschrift", system-ui, sans-serif; font-size: 14px; line-height: 1.5; -webkit-font-smoothing: antialiased; overflow-x: hidden; max-width: 100%; }
+  a { color: inherit; }
+  .re-serif { font-family: "Garamond Light", Georgia, serif; font-weight: 400; letter-spacing: -0.01em; }
+  .re-eyebrow { font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--c-dark-beige); margin: 0 0 8px; }
+  .re-beige { color: var(--c-beige); }
+  .re-muted { color: #9d978c; }
+  .re-wrap { max-width: 1440px; margin: 0 auto; padding: 0 32px; }
+
+  /* Sticky Editorial Header */
+  .re-header { position: sticky; top: 0; z-index: 40; background: rgba(18, 16, 14, 0.94); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line-dark); }
+  .re-header__inner { max-width: 1440px; margin: 0 auto; padding: 12px 32px; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+  .re-brand { display: inline-flex; align-items: center; text-decoration: none; color: var(--c-light); flex-shrink: 0; }
+  .re-nav { display: flex; align-items: center; gap: 14px; flex-wrap: nowrap; }
+  .re-nav a { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.08em; text-decoration: none; color: var(--c-beige); padding-bottom: 3px; border-bottom: 1px solid transparent; transition: color .2s, border-color .2s; white-space: nowrap; }
+  .re-nav a:hover, .re-nav a.is-active { color: var(--c-light); border-bottom-color: var(--c-light); }
+  .re-nav-cnt { opacity: 0.65; }
+  .re-header__right { display: flex; gap: 8px; align-items: center; flex-shrink: 0; white-space: nowrap; }
+  .re-header__right .re-btn-ghost, .re-header__right .re-btn-solid { padding: 8px 12px; font-size: 10.5px; white-space: nowrap; }
+
+  .re-grid--2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--line-dark); border: 1px solid var(--line-dark); }
+  .re-split-2 { display: grid; grid-template-columns: 1.3fr 1fr; gap: 28px; }
+  .re-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .re-controls--2 { display: grid; grid-template-columns: 2fr 1fr; gap: 12px; margin: 24px 0 16px; }
+  @media (max-width: 1180px) {
+    .re-header__inner { flex-wrap: wrap; padding: 10px 20px; }
+    .re-nav { order: 3; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-top: 6px; border-top: 1px solid var(--line-dark); gap: 16px; }
+    .re-nav::-webkit-scrollbar { display: none; }
+  }
+  @media (max-width: 860px) {
+    .re-split-2 { grid-template-columns: 1fr !important; }
+    .re-two-col { grid-template-columns: 1fr !important; }
+  }
+  @media (max-width: 768px) {
+    .re-wrap { padding: 0 16px; }
+    .re-header__inner { padding: 10px 16px; gap: 10px; }
+    .re-brand svg { width: 156px; height: 18px; }
+    .re-header__right .re-btn-solid { display: none; }
+    .re-hero { padding: 28px 0 22px !important; }
+    .re-hero h1 { font-size: clamp(26px, 7.5vw, 40px) !important; }
+    .re-kpi-strip { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+    .re-kpi { padding: 12px 14px !important; }
+    .re-kpi__num { font-size: 24px !important; }
+    .re-grid--2 { grid-template-columns: 1fr !important; }
+    .re-controls--2 { grid-template-columns: 1fr !important; }
+    .re-input, .re-select { font-size: 16px; min-height: 44px; }
+    .re-btn-ghost, .re-btn-solid, .re-chip { min-height: 38px; }
+    .re-emi-grid { grid-template-columns: 1fr !important; gap: 14px !important; }
+    .re-modal { padding: 10px !important; }
+    .re-modal__panel { padding: 18px 16px !important; max-height: 94vh !important; }
+    .re-drawer__head, .re-drawer__body { padding: 16px !important; }
+  }
+  .re-emi-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .re-table-wrap { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  .re-btn-ghost, .re-btn-solid, .re-chip {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 9px 15px; font-family: inherit; font-size: 11px; text-transform: uppercase; letter-spacing: 0.09em;
+    border: 1px solid rgba(247, 242, 232, 0.28); background: transparent; color: var(--c-light);
+    cursor: pointer; text-decoration: none; transition: background .2s, color .2s, border-color .2s;
+  }
+  .re-btn-ghost:hover, .re-chip:hover, .re-chip.is-active { background: var(--c-light); color: var(--c-black); border-color: var(--c-light); }
+  .re-btn-solid { background: var(--c-light); color: var(--c-black); border-color: var(--c-light); font-weight: 500; }
+  .re-btn-solid:hover { background: var(--c-beige); border-color: var(--c-beige); }
+  .re-chip { padding: 6px 12px; font-size: 10.5px; color: var(--c-beige); border-color: var(--line-dark); }
+
+  /* Hero Band */
+  .re-hero { padding: 56px 0 36px; border-bottom: 1px solid var(--line-dark); }
+  .re-hero h1 { font-family: "Garamond Light", Georgia, serif; font-weight: 400; font-size: clamp(38px, 5vw, 68px); line-height: 1.02; margin: 0 0 14px; }
+  .re-hero__lead { font-size: 15px; color: var(--c-beige); max-width: 780px; margin: 0; }
+  .re-kpi-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1px; background: var(--line-dark); border: 1px solid var(--line-dark); margin-top: 28px; }
+  .re-kpi { background: var(--c-black); padding: 18px 20px; }
+  .re-kpi__num { font-family: "Garamond Light", Georgia, serif; font-size: 34px; line-height: 1.05; color: var(--c-light); }
+  .re-kpi__lbl { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--c-dark-beige); margin-top: 6px; }
+
+  /* Cream editorial band */
+  .re-cream { background: var(--c-light); color: var(--c-black); }
+  .re-cream .re-eyebrow { color: var(--c-dark-beige); }
+  .re-cream .re-muted { color: #54524c; }
+
+  /* Controls & Inputs */
+  .re-controls { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 12px; margin: 24px 0 16px; }
+  @media (max-width: 960px) { .re-controls { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 560px) { .re-controls { grid-template-columns: 1fr; } }
+  .re-input, .re-select {
+    width: 100%; background: rgba(255,255,255,0.03); border: 1px solid rgba(247,242,232,0.22);
+    color: var(--c-light); padding: 11px 14px; font-family: inherit; font-size: 13px; outline: none;
+  }
+  .re-cream .re-input, .re-cream .re-select {
+    background: #fff; border-color: rgba(18,16,14,0.22); color: var(--c-black);
+  }
+  .re-select option { background: var(--c-black); color: var(--c-light); }
+  .re-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+
+  /* Cards Grid */
+  .re-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--line-dark); border: 1px solid var(--line-dark); }
+  @media (max-width: 1120px) { .re-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 680px) { .re-grid { grid-template-columns: 1fr; } }
+  .re-card { background: var(--c-black); display: flex; flex-direction: column; justify-content: space-between; min-height: 100%; transition: background .2s; }
+  .re-card:hover { background: #191613; }
+  .re-card__img { position: relative; aspect-ratio: 16/10; background: #1f1b17; overflow: hidden; border-bottom: 1px solid var(--line-dark); cursor: pointer; }
+  .re-card__img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s cubic-bezier(.25,.74,.22,.99); }
+  .re-card:hover .re-card__img img { transform: scale(1.03); }
+  .re-badge-row { position: absolute; top: 10px; left: 10px; right: 10px; display: flex; justify-content: space-between; gap: 6px; pointer-events: none; }
+  .re-badge { background: rgba(18,16,14,0.84); border: 1px solid rgba(247,242,232,0.2); padding: 4px 8px; font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--c-light); }
+  .re-card__body { padding: 18px 20px; display: flex; flex-direction: column; flex: 1; }
+  .re-card__title { font-family: "Garamond Light", Georgia, serif; font-size: 22px; line-height: 1.18; margin: 0 0 8px; color: var(--c-light); cursor: pointer; }
+  .re-card__price { font-size: 16px; font-weight: 500; color: var(--c-light); margin: 0 0 8px; }
+  .re-card__meta { font-size: 12px; color: var(--c-beige); margin-bottom: 10px; line-height: 1.5; }
+  .re-card__foot { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--line-dark); display: flex; gap: 8px; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+
+  /* Modals & Drawers */
+  .re-drawer.is-hidden, .re-modal.is-hidden { display: none !important; }
+  .re-drawer, .re-modal { position: fixed; inset: 0; z-index: 90; display: flex; align-items: stretch; justify-content: flex-end; }
+  .re-modal { align-items: center; justify-content: center; padding: 20px; }
+  .re-drawer__bg, .re-modal__bg { position: fixed; inset: 0; background: rgba(12,10,8,0.78); backdrop-filter: blur(6px); }
+  .re-drawer__panel { position: relative; z-index: 2; width: min(540px, 100%); background: var(--c-surface); border-left: 1px solid var(--line-dark); display: flex; flex-direction: column; max-height: 100vh; }
+  .re-modal__panel { position: relative; z-index: 2; width: min(920px, 100%); max-height: 92vh; overflow-y: auto; background: var(--c-surface); border: 1px solid rgba(247,242,232,0.22); padding: 28px; color: var(--c-light); }
+  .re-drawer__head { padding: 20px 24px; border-bottom: 1px solid var(--line-dark); display: flex; justify-content: space-between; align-items: center; }
+  .re-drawer__body { padding: 20px 24px; overflow-y: auto; flex: 1; }
+  .re-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 14px; }
+  .re-tag { font-size: 11px; border: 1px solid var(--line-dark); padding: 4px 9px; color: var(--c-beige); }
+
+  /* Footer */
+  .re-footer { background: var(--c-black); color: var(--c-light); border-top: 1px solid var(--line-dark); padding: 54px 0 28px; margin-top: 56px; }
+  .re-footer__grid { display: grid; grid-template-columns: 1.4fr 1.1fr 0.9fr; gap: 36px; }
+  @media (max-width: 900px) { .re-footer__grid { grid-template-columns: 1fr; } }
+  .re-footer__title { font-size: 28px; line-height: 1.15; margin: 0; }
+  .re-footer__nav { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+  .re-footer__nav a, .re-links-row a { font-size: 12px; color: var(--c-beige); text-decoration: none; }
+  .re-footer__nav a:hover, .re-links-row a:hover { color: var(--c-light); text-decoration: underline; }
+  .re-links-row { display: flex; flex-wrap: wrap; gap: 14px; }
+  .re-footer__bottom { border-top: 1px solid var(--line-dark); margin-top: 34px; padding-top: 18px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 11px; color: var(--c-dark-beige); }
+</style>
+
+</head>
+<body>
+
+<header class="re-header">
+  <div class="re-header__inner">
+    <div class="re-header__left">
+      <a class="re-brand" href="/" title="Beyond Bricks · RG Constructions">
+        <svg width="210" height="22" viewBox="0 0 210 22" aria-hidden="true">
+          <g fill="currentColor">
+            <rect x="1" y="3" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.25"/>
+            <path d="M5 19V8.5L9 5.5L13 8.5V19M9 5.5V19" fill="none" stroke="currentColor" stroke-width="1.15"/>
+            <text x="25" y="16" fill="currentColor" font-family="'Halvar Breitschrift', system-ui, sans-serif" font-size="12.5" font-weight="400" letter-spacing="2.1">BEYOND BRICKS</text>
+          </g>
+        </svg>
+      </a>
+    </div>
+    <nav class="re-nav" aria-label="Primary">
+      <a href="/" data-nav="/">Home</a>
+      <a href="/flats" data-nav="/flats">Properties <span class="re-nav-cnt">(10)</span></a>
+      <a href="/projects" data-nav="/projects">Projects <span class="re-nav-cnt">(8)</span></a>
+      <a href="/services" data-nav="/services">Services &amp; Tools</a>
+      <a href="/about" data-nav="/about">About &amp; Reviews</a>
+      <a href="/map" data-nav="/map">3D Area Map</a>
+    </nav>
+    <div class="re-header__right">
+      <button type="button" class="re-btn-ghost" id="re-fav-trigger" title="Shortlisted Properties">
+        Shortlist (<span id="re-fav-count">0</span>)
+      </button>
+      <a class="re-btn-solid" href="https://api.whatsapp.com/send?phone=919963466111&text=Hi%20RG%20Constructions%2C%20I%20visited%20beyondbricks.in%20and%20would%20like%20to%20discuss%20a%20property." target="_blank">
+        WhatsApp &middot; +91 99634 66111
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="re-hero"><div class="re-wrap"><p class="re-eyebrow">Est. 2014 · Hyderabad · beyondbricks.in</p><h1>Beyond Bricks · RG Constructions</h1><p class="re-hero__lead">We are construction contractors and builders working as an extension of RG Constructions based in Hyderabad. We help you build apartments, independent villas, and commercial and turnkey projects with construction monitoring and management services to ensure timely possession within pre-fixed budgets.</p></div></section>
+
+<section style="padding:36px 0;" id="legal">
+  <div class="re-wrap re-split-2">
+    <div style="border:1px solid var(--line-dark);padding:28px;background:var(--c-surface);min-width:0;">
+      <p class="re-eyebrow">Complete Company Narrative</p>
+      <h2 class="re-serif" style="font-size:34px;margin:0 0 14px;">Our Journey, Business Model &amp; Compliance</h2>
+      <div id="about-copy" style="white-space:pre-line;color:var(--c-beige);font-size:13.5px;line-height:1.7;"></div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:18px;">
+      <div style="border:1px solid var(--line-dark);padding:24px;background:var(--c-surface);">
+        <p class="re-eyebrow">Head Office &amp; Direct Desk</p>
+        <img id="office-img" src="" alt="Company Office" style="width:100%;max-height:240px;object-fit:cover;margin-bottom:14px;border:1px solid var(--line-dark);">
+        <div id="contact-box" style="font-size:13px;line-height:1.75;color:var(--c-beige);"></div>
+      </div>
+      <div style="border:1px solid var(--line-dark);padding:24px;background:var(--c-surface);">
+        <p class="re-eyebrow">Partners &amp; Coverage</p>
+        <div id="assoc-box"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="re-cream" style="padding:48px 0;" id="reviews">
+  <div class="re-wrap">
+    <p class="re-eyebrow">Client Ratings &amp; Reviews</p>
+    <h2 class="re-serif" style="font-size:38px;margin:0 0 22px;">Verified Client Testimonials</h2>
+    <div class="re-grid" style="background:var(--line-light);border-color:var(--line-light);" id="rev-grid"></div>
+  </div>
+</section>
+
+<section style="padding:48px 0;" id="locations">
+  <div class="re-wrap">
+    <p class="re-eyebrow">Market Intelligence &amp; Location Directory</p>
+    <h2 class="re-serif" style="font-size:38px;margin:0 0 18px;">Market Directory &amp; Guides</h2>
+    <div class="re-two-col" style="margin-bottom:36px;" id="loc-tables"></div>
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:14px;">
+      <input class="re-input" id="blog-search" type="search" style="max-width:420px;" placeholder="Filter market guides &amp; pages...">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <button type="button" class="re-chip is-active" id="blog-re-btn">Real Estate Guides Only</button>
+        <button type="button" class="re-chip" id="blog-all-btn">All URLs</button>
+      </div>
+    </div>
+    <p class="re-muted" id="blog-count-lbl" style="margin:0 0 14px;font-size:12px;"></p>
+    <div class="re-grid" id="blog-grid"></div>
+    <div style="text-align:center;margin-top:24px;" id="blog-more-wrap"></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="re-footer">
+  <div class="re-wrap re-footer__grid">
+    <div>
+      <p class="re-eyebrow">Est. 2014</p>
+      <h2 class="re-serif re-footer__title">Beyond Bricks · RG Constructions</h2>
+      <p class="re-muted" style="max-width:520px;margin-top:10px;">
+        Hyderabad, Telangana
+      </p>
+    </div>
+    <div>
+      <p class="re-eyebrow">Direct Desk &mdash; RG Constructions</p>
+      <p style="margin:8px 0;line-height:1.8;">
+        Direct: <a href="tel:+919963466111">+91 99634 66111</a> &middot; <a href="tel:+919698878878">+91 96988 78878</a><br>
+        Email: <a href="mailto:info@beyondbricks.in">info@beyondbricks.in</a><br>
+        Web: <a href="http://www.beyondbricks.in/" target="_blank">beyondbricks.in</a>
+      </p>
+      <div class="re-links-row" style="margin-top:12px;">
+        <a href="https://www.facebook.com/Beyond-Bricks-108763518538167" target="_blank">Facebook</a>
+        <a href="https://twitter.com/bricks_beyond" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/in/beyond-bricks-by-rg-constructions/" target="_blank">Linkedin</a>
+        <a href="https://www.youtube.com/channel/UC1iQc7C4jfu-oUShLg7yv3w" target="_blank">Youtube</a>
+        <a href="https://www.instagram.com/beyondbricks.in/" target="_blank">Instagram</a>
+      </div>
+    </div>
+    <div>
+      <p class="re-eyebrow">Explore Site</p>
+      <div class="re-footer__nav">
+        <a href="/">Editorial Home</a>
+        <a href="/map">3D Interactive Area Map</a>
+        <a href="/flats">10 Listings Portfolio</a>
+        <a href="/projects">8 Featured Projects</a>
+        <a href="/services">Services, EMI &amp; Area Tools</a>
+        <a href="/about">About, Reviews &amp; Guides</a>
+      </div>
+    </div>
+  </div>
+  <div class="re-wrap re-footer__bottom">
+    <span>&copy; 2014&ndash;2026 Beyond Bricks · RG Constructions &middot; beyondbricks.in</span>
+    <span>Hyderabad Verified Real Estate Preview</span>
+  </div>
+</footer>
+
+<!-- Shared Shortlist Drawer -->
+<div class="re-drawer is-hidden" id="re-fav-drawer" role="dialog" aria-hidden="true">
+  <div class="re-drawer__bg" data-close-drawer></div>
+  <div class="re-drawer__panel">
+    <div class="re-drawer__head">
+      <div>
+        <p class="re-eyebrow">Saved Portfolio</p>
+        <h3 class="re-serif" style="font-size:28px;margin:4px 0 0;">Your Shortlist</h3>
+      </div>
+      <button type="button" class="re-btn-ghost" data-close-drawer>Close &times;</button>
+    </div>
+    <div id="re-fav-body" class="re-drawer__body"></div>
+  </div>
+</div>
+
+
+<script src="./data/re-data.js"></script>
+<script>
+(function(){
+  const path = location.pathname.replace(/\.html$/, '') || '/';
+  document.querySelectorAll('.re-nav a').forEach(a => {
+    const t = a.getAttribute('data-nav');
+    if (t === path || (t === '/flats' && (path === '/properties' || path === '/flats'))) a.classList.add('is-active');
+  });
+
+  window.RE_FAV = {
+    key: 're_fav_beyond-bricks',
+    get() {
+      try { return JSON.parse(localStorage.getItem(this.key) || '[]'); } catch(e) { return []; }
+    },
+    set(ids) {
+      localStorage.setItem(this.key, JSON.stringify(Array.from(new Set(ids))));
+      this.syncUI();
+    },
+    has(id) { return this.get().includes(id); },
+    toggle(id) {
+      const cur = this.get();
+      if (cur.includes(id)) this.set(cur.filter(x => x !== id));
+      else this.set([...cur, id]);
+    },
+    syncUI() {
+      const ids = this.get();
+      const cnt = document.getElementById('re-fav-count');
+      if (cnt) cnt.textContent = ids.length;
+      document.querySelectorAll('[data-fav-btn]').forEach(btn => {
+        const id = btn.getAttribute('data-fav-btn');
+        const active = ids.includes(id);
+        btn.classList.toggle('is-active', active);
+        btn.textContent = active ? 'Saved ♥' : 'Save ♡';
+      });
+      const body = document.getElementById('re-fav-body');
+      if (body && window.RE_DATA) {
+        const c = window.RE_DATA.company || {};
+        const waNum = (c.whatsapp_digits || '').replace(/\D/g, '') || '919963466111';
+        const map = new Map((window.RE_DATA.properties || []).map(p => [p.id, p]));
+        const items = ids.map(id => map.get(id)).filter(Boolean);
+        if (!items.length) {
+          body.innerHTML = '<p class="re-muted">No shortlisted properties yet. Save listings from the portfolio to compare or send to ' + (c.owner || 'RG Constructions') + ' via WhatsApp.</p><a class="re-btn-solid" style="margin-top:12px;" href="/flats">Explore Portfolio &rarr;</a>';
+        } else {
+          const waLines = encodeURIComponent('Hi ' + (c.owner || c.name || '') + ', I shortlisted these properties on ' + (c.domain || '') + ':\n' + items.map(x => '- ' + x.id + ': ' + x.title + ' (' + x.price + ')').join('\n'));
+          body.innerHTML = items.map(it => `
+            <div style="border-bottom:1px solid var(--line-dark); padding:14px 0;">
+              <div class="re-eyebrow" style="margin-bottom:4px;">${it.id} &middot; ${it.transaction} &middot; ${it.property_type}</div>
+              <div class="re-serif" style="font-size:20px;line-height:1.2;">${it.title}</div>
+              <div class="re-beige" style="font-size:13px;margin:4px 0;">${it.price} &middot; ${it.area || ''} &middot; ${it.location}</div>
+              <div style="display:flex;gap:8px;margin-top:8px;">
+                <a class="re-chip" href="/flats?id=${it.id}">Inspect</a>
+                <button type="button" class="re-chip" onclick="RE_FAV.toggle('${it.id}')">Remove</button>
+              </div>
+            </div>
+          `).join('') + `<div style="margin-top:18px;display:flex;flex-direction:column;gap:10px;">
+            ${waNum ? `<a class="re-btn-solid" target="_blank" href="https://api.whatsapp.com/send?phone=${waNum}&text=${waLines}">Send Shortlist via WhatsApp</a>` : ''}
+            <button type="button" class="re-btn-ghost" onclick="RE_FAV.set([])">Clear Shortlist</button>
+          </div>`;
+        }
+      }
+    }
+  };
+
+  const drawer = document.getElementById('re-fav-drawer');
+  const trig = document.getElementById('re-fav-trigger');
+  if (trig && drawer) {
+    trig.addEventListener('click', () => {
+      RE_FAV.syncUI();
+      drawer.classList.remove('is-hidden');
+      drawer.setAttribute('aria-hidden', 'false');
+    });
+    drawer.querySelectorAll('[data-close-drawer]').forEach(el => el.addEventListener('click', () => {
+      drawer.classList.add('is-hidden');
+      drawer.setAttribute('aria-hidden', 'true');
+    }));
+  }
+  document.addEventListener('click', e => {
+    const fb = e.target.closest('[data-fav-btn]');
+    if (fb) {
+      e.preventDefault();
+      e.stopPropagation();
+      RE_FAV.toggle(fb.getAttribute('data-fav-btn'));
+    }
+  });
+  RE_FAV.syncUI();
+})();
+</script>
+
+
+<script>
+(function(){
+  const D = window.RE_DATA;
+  if (!(D.testimonials && D.testimonials.reviews && D.testimonials.reviews.length)) {
+    const rs = document.getElementById('reviews'); if (rs) rs.style.display = 'none';
+  }
+  if (!(D.blogs && D.blogs.length)) {
+    const ls = document.getElementById('blog-controls-row'); if (ls) ls.style.display = 'none';
+  }
+  const c = D.company;
+  document.getElementById('about-copy').textContent = D.about_text;
+  const offImg = document.getElementById('office-img');
+  offImg.onerror = () => { offImg.onerror = null; offImg.src = './assets/images/media/landing/1.intro/placeholder@xxl.webp'; };
+  offImg.src = c.office_photo || './assets/images/media/landing/1.intro/placeholder@xxl.webp';
+  document.getElementById('contact-box').innerHTML = `
+    <strong>Principal:</strong> ${c.owner}<br>
+    <strong>RERA:</strong> ${c.rera} &middot; Founded ${c.founded}<br>
+    <strong>Address:</strong> ${c.address}<br>
+    <strong>Mobile:</strong> <a href="tel:${(c.mobiles&&c.mobiles[0])||''}">${c.mobiles.join(', ')}</a><br>
+    <strong>Landlines:</strong> ${c.landlines.join(', ')}<br>
+    <strong>Email:</strong> <a href="mailto:${c.email}">${c.email}</a><br>
+    <strong>Google Rating:</strong> ${c.google_maps_rating}<br>
+    ${c.whatsapp_url ? `<div style="margin-top:12px;"><a class="re-btn-solid" target="_blank" href="${c.whatsapp_url}">Chat on WhatsApp &rarr;</a></div>` : ''}
+  `;
+  document.getElementById('assoc-box').innerHTML = `
+    <p class="re-eyebrow">Builder Partners</p>
+    <div class="re-tags">${c.associates.map(a => `<span class="re-tag">${a}</span>`).join('')}</div>
+    <p class="re-eyebrow">Cities Covered</p>
+    <div class="re-tags">${c.cities_covered.map(ct => `<span class="re-tag">${ct}</span>`).join('')}</div>
+  `;
+
+  // Testimonials
+  const t = D.testimonials || {};
+  document.getElementById('rev-grid').innerHTML = (t.reviews || []).map(rv => `
+    <article style="background:var(--c-light);color:var(--c-black);padding:24px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div>
+        <div class="re-eyebrow">${rv.date} &middot; Verified Client Review</div>
+        <h3 class="re-serif" style="font-size:26px;margin:0 0 10px;">${rv.author}</h3>
+        <p style="font-size:13.5px;line-height:1.6;margin:0;">"${rv.review}"</p>
+      </div>
+    </article>
+  `).join('');
+
+  // Sale & Rent Location counts
+  const hl = D.homepage_location_counts || {};
+  const mkTable = (title, arr) => `<div style="border:1px solid var(--line-dark);padding:20px;background:var(--c-surface);">
+    <p class="re-eyebrow">${title}</p>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">${(arr||[]).map(x => `<tr style="border-bottom:1px solid var(--line-dark);"><td style="padding:7px 0;"><a href="/flats?q=${encodeURIComponent(x.location.split(',')[0])}" style="text-decoration:none;">${x.location}</a></td><td style="text-align:right;font-weight:500;">${x.count}</td></tr>`).join('')}</table>
+  </div>`;
+  document.getElementById('loc-tables').innerHTML = mkTable('Top Sale Locations', hl.sale_locations) + mkTable('Top Rent / Commercial Locations', hl.rent_locations);
+
+  // Blogs
+  let onlyRe = true;
+  let blogLimit = 60;
+  function renderBlogs() {
+    const q = document.getElementById('blog-search').value.trim().toLowerCase();
+    const matched = (D.blogs || []).filter(b => {
+      if (onlyRe && !b.is_real_estate) return false;
+      if (q && !`${b.title} ${b.excerpt} ${b.url}`.toLowerCase().includes(q)) return false;
+      return true;
+    });
+    const rows = matched.slice(0, blogLimit);
+    document.getElementById('blog-count-lbl').textContent = `Showing ${rows.length} of ${matched.length} ${onlyRe ? 'real estate guides' : 'total URLs'}`;
+    document.getElementById('blog-grid').innerHTML = rows.map(b => `
+      <article class="re-card">
+        <div class="re-card__body">
+          <div class="re-eyebrow">${b.category}</div>
+          <h3 class="re-card__title" style="font-size:21px;">${b.title}</h3>
+          <p class="re-muted" style="font-size:12.5px;line-height:1.55;">${b.excerpt}</p>
+          <div class="re-card__foot"><a class="re-chip" href="${b.url}" target="_blank">Read Original Guide &nearr;</a></div>
+        </div>
+      </article>
+    `).join('');
+    document.getElementById('blog-more-wrap').innerHTML = blogLimit < matched.length
+      ? `<button type="button" class="re-btn-solid" id="blog-all-show">Show All ${matched.length} Guides</button>`
+      : '';
+    const sb = document.getElementById('blog-all-show');
+    if (sb) sb.onclick = () => { blogLimit = matched.length; renderBlogs(); };
+  }
+  document.getElementById('blog-search').addEventListener('input', () => { blogLimit = 60; renderBlogs(); });
+  document.getElementById('blog-re-btn').addEventListener('click', () => {
+    onlyRe = true;
+    blogLimit = 60;
+    document.getElementById('blog-re-btn').classList.add('is-active');
+    document.getElementById('blog-all-btn').classList.remove('is-active');
+    renderBlogs();
+  });
+  document.getElementById('blog-all-btn').addEventListener('click', () => {
+    onlyRe = false;
+    blogLimit = 60;
+    document.getElementById('blog-all-btn').classList.add('is-active');
+    document.getElementById('blog-re-btn').classList.remove('is-active');
+    renderBlogs();
+  });
+  renderBlogs();
+})();
+</script>
+
+</body>
+</html>

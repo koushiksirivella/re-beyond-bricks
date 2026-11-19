@@ -1,0 +1,1 @@
+export function initCloudflare(){} export function validateCloudflare(){return Promise.resolve('offline-ok')} export default function(){return Promise.resolve('offline-ok')}

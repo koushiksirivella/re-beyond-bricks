@@ -1,0 +1,1 @@
+export function validateV2(){return Promise.resolve('offline-ok')}

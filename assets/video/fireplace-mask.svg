@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="244" viewBox="0 0 340 244">
+  <defs><filter id="feather" x="-20%" y="-30%" width="140%" height="160%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="7"/></filter></defs>
+  <g fill="white" filter="url(#feather)">
+    <path d="M-25 140 L299 47 L299 150 L-25 248 Z"/>
+    <path d="M25 218 L279 149 L285 165 L28 240 Z" opacity=".65"/>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/flats",
+      "destination": "/properties.html"
+    },
+    {
+      "source": "/architecture",
+      "destination": "/projects.html"
+    },
+    {
+      "source": "/spaces",
+      "destination": "/services.html"
+    },
+    {
+      "source": "/location",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/agreement",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/about.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ]
+}

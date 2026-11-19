@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime.js?v=1793967937";import{A as t,g as n,k as r}from"./shared.js?v=1793967937";var i=e(r(),1);t.fn.linkScrollTo=(0,i.default)((e,r)=>{e.on(`click`,i=>{i.preventDefault();let a=t(e.attr(`href`)),o=r.duration||6;a.length&&n(a,{duration:o,lerp:.01})})});

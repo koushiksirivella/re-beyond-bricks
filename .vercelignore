@@ -1,0 +1,12 @@
+serve.js
+README.md
+data/inquiries-log.jsonl
+data/re-data.json
+dossier.json
+SCRAPED-DOSSIER.json
+EMAIL-PITCH.txt
+WHATSAPP-PITCH.txt
+30S-VIDEO-SCRIPT.txt
+*.md
+.git
+.gitignore

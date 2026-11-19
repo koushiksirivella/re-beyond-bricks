@@ -1,0 +1,1 @@
+function e(e){if(e&&e.events)return e.events;let t={},n={on:(e,n)=>{(t[e]||(t[e]=[])).push(n)},off:(e,n)=>{t[e]&&(t[e]=t[e].filter(e=>e!==n))},emit:(e,...n)=>{t[e]&&t[e].forEach(e=>e(...n))},dispose:()=>{t={}}};return e&&(e.events=n),n}export{e as t};

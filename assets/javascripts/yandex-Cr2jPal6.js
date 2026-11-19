@@ -1,0 +1,1 @@
+export function initYandex(){} export function validateYandex(){return Promise.resolve('offline-ok')} export function waitForYandex(){return Promise.resolve()}
